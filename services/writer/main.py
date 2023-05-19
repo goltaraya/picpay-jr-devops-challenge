@@ -1,6 +1,5 @@
 import http.server
 import socketserver
-import json
 import redis
 
 class RequestHandler(http.server.SimpleHTTPRequestHandler):

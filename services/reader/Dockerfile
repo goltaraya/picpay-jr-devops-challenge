@@ -1,6 +1,11 @@
 FROM golang:1.16
 WORKDIR /go/src/github.com/PicPay/picpay-jr-devops-challenge/services/go
-ADD . /go/src/github.com/PicPay/picpay-jr-devops-challenge/services/go
+ADD . .
 
-EXPOSE 8080
-CMD ["go","run","main.go"]
+RUN go env -w GO111MODULE=auto
+RUN go mod init
+RUN go mod tidy
+
+EXPOSE 8082
+
+ENTRYPOINT [ "go" , "run",  "main.go" ]
