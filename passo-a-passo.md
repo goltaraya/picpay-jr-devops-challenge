@@ -1,4 +1,4 @@
-# Desafio DevOps jr PicPay
+# Desafio DevOps Jr do PicPay - detalhes
 Então, eu me empolguei e acabei fazendo tudo em 2 commits hehe mas vamos lá. <br>
 Fiz um passo a passo do que eu arrumei (do que eu lembro pelo menos).
 
